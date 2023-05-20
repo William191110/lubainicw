@@ -1,0 +1,15 @@
+.contact {
+        /* background-color: #e5dfd66e; */
+}
+.contact-content {
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: bisque;
+    max-width: 67%;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 10px;
+    margin-bottom: 3rem;
+}

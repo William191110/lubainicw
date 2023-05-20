@@ -1,0 +1,48 @@
+.service {
+    background-color: #f7f7fc;
+}
+
+.service .set > div img {
+    object-fit: scale-down;
+    width: 370px;
+    height: 370px;
+}
+.service .set > div:nth-child(2) {
+    word-wrap: break-word;
+    width: 50%;
+}
+
+.service .set > div:nth-child(2) header {
+    margin-top: 7rem;
+    /* background-color: aqua; */
+}
+.service .set > div header span {
+    background-color: #4aa8f9;
+    padding: 8px;
+    border-radius: 8px;
+    font-weight:600;
+    color: #fff;
+}
+
+.service main p {
+    color: slategray;
+    font-weight: 500;
+}
+
+@media (max-width: 992px) {
+
+    .service .set {
+        align-items: center;
+        gap: 1rem;
+        flex-direction: column-reverse;
+    }
+    .service .set > div:nth-child(2) {
+        width: 70%;
+    }
+    .service .set > div:nth-child(2) header {
+        margin-top: 1rem;
+        /* background-color: aqua; */
+        /* transition: 4s ease-in-out; */
+    }
+    
+}
